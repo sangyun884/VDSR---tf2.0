@@ -1,6 +1,7 @@
 # VDSR---tf2.0
 
 Author's site : https://cv.snu.ac.kr/research/VDSR/
+Paper review : https://yun905.tistory.com/34
 
 Tensorflow 2.0 implementation of VDSR with jupyter notebook. Dataset is from link above.
 
@@ -46,4 +47,3 @@ Sequence of images is Ground Truth -> bicubic -> VDSR.
 ![fake](https://user-images.githubusercontent.com/71681194/103331653-41934b80-4aaa-11eb-900a-b132f10e636e.png)
 
 
-Paper review : https://yun905.tistory.com/34
