@@ -48,7 +48,3 @@ Sequence of images is Ground Truth -> bicubic -> VDSR.
 ![gt](https://user-images.githubusercontent.com/71681194/103331659-448e3c00-4aaa-11eb-8b0c-ab6cd16d0b6d.png)
 ![bicubic](https://user-images.githubusercontent.com/71681194/103331661-45bf6900-4aaa-11eb-8466-31daa0528fbe.png)
 ![fake](https://user-images.githubusercontent.com/71681194/103331665-46f09600-4aaa-11eb-8c92-7131b1916f29.png)
-
-![image](https://user-images.githubusercontent.com/71681194/103331755-b6668580-4aaa-11eb-9e66-7f4ef7da81b0.png)
-![image](https://user-images.githubusercontent.com/71681194/103331764-c41c0b00-4aaa-11eb-8a64-6e399143106d.png)
-![image](https://user-images.githubusercontent.com/71681194/103331768-cb431900-4aaa-11eb-9e1c-482de33fa2e7.png)
