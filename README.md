@@ -7,7 +7,7 @@ Paper review : https://yun905.tistory.com/34
 Tensorflow 2.0 implementation of VDSR with jupyter notebook. Dataset is from author's site above.
 
 # Requirements
-Numpy, tensorflow(>2.0), PIL, pyplot
+Numpy, tensorflow(>=2.0), PIL, pyplot
 
 # Benchmark
 
