@@ -27,23 +27,7 @@ Original paper used SGD + momentum=0.9, initial learning rate=0.1 with gradient 
 
 
 
-#### Bicubic
 
-![bicubic](https://user-images.githubusercontent.com/71681194/103331545-cf226b80-4aa9-11eb-8254-de57c3a6cc4d.png)
-
-#### VDSR
-
-![fake](https://user-images.githubusercontent.com/71681194/103331546-cfbb0200-4aa9-11eb-8d0a-9af57d0cd9ee.png)
-
-
-
-#### Bicubic
-
-![bicubic](https://user-images.githubusercontent.com/71681194/103331606-1c064200-4aaa-11eb-9a48-35d6cf360255.png)
-
-#### VDSR
-
-![fake](https://user-images.githubusercontent.com/71681194/103331607-1d376f00-4aaa-11eb-8a4f-511e374b8155.png)
 
 
 
