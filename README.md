@@ -25,9 +25,7 @@ Original paper used SGD + momentum=0.9, initial learning rate=0.1 with gradient 
 
 # Results
 
-#### Ground truth
 
-![gt](https://user-images.githubusercontent.com/71681194/103331542-ccc01180-4aa9-11eb-9bcd-cd9e29a45c27.png)
 
 #### Bicubic
 
@@ -37,9 +35,7 @@ Original paper used SGD + momentum=0.9, initial learning rate=0.1 with gradient 
 
 ![fake](https://user-images.githubusercontent.com/71681194/103331546-cfbb0200-4aa9-11eb-8d0a-9af57d0cd9ee.png)
 
-#### Ground truth
 
-![gt](https://user-images.githubusercontent.com/71681194/103331604-190b5180-4aaa-11eb-8e52-7919eab9e8e5.png)
 
 #### Bicubic
 
@@ -49,9 +45,7 @@ Original paper used SGD + momentum=0.9, initial learning rate=0.1 with gradient 
 
 ![fake](https://user-images.githubusercontent.com/71681194/103331607-1d376f00-4aaa-11eb-8a4f-511e374b8155.png)
 
-#### Ground truth
 
-![gt](https://user-images.githubusercontent.com/71681194/103331634-35a78980-4aaa-11eb-8b50-18c513cc2109.png)
 
 #### Bicubic
 
@@ -61,9 +55,7 @@ Original paper used SGD + momentum=0.9, initial learning rate=0.1 with gradient 
 
 ![fake](https://user-images.githubusercontent.com/71681194/103331639-37714d00-4aaa-11eb-89c0-9e4caefb9374.png)
 
-#### Ground truth
 
-![gt](https://user-images.githubusercontent.com/71681194/103331643-3a6c3d80-4aaa-11eb-8ec8-2d4c97709b4f.png)
 
 #### Bicubic
 
@@ -73,9 +65,7 @@ Original paper used SGD + momentum=0.9, initial learning rate=0.1 with gradient 
 
 ![fake](https://user-images.githubusercontent.com/71681194/103331646-3cce9780-4aaa-11eb-88ff-3cc30c9dcc58.png)
 
-#### Ground truth
 
-![gt](https://user-images.githubusercontent.com/71681194/103331648-3f30f180-4aaa-11eb-9e53-3c7c6a1bce86.png)
 
 #### Bicubic
 
