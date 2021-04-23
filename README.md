@@ -9,21 +9,30 @@ Tensorflow 2.0 implementation of VDSR with jupyter notebook. Dataset is from aut
 # Requirements
 Numpy, tensorflow(>=2.0), PIL, pyplot
 
-# Benchmark
+# PSNR
 
 ![image](https://user-images.githubusercontent.com/71681194/103330773-3a6a3e80-4aa6-11eb-86e7-73e559810739.png)
 
 PSNR of given dataset. The reason values are lower than original paper's is because values above are PSNRs of entire RGB channels, but only Y channel in original paper.  It is known that using whole rgb channels generates better results than using Y channel of YCbCr only. 
 
-![image](https://user-images.githubusercontent.com/71681194/103331346-ddbc5300-4aa8-11eb-92fb-afcf14b94fd2.png)
 
-Given same bicubic algorithm, PSNR of RGB is lower than PSNR of Y channel only.
+## PSNR of bicubic up-sampling
+
+||PSNR(Y)|PSNR(RGB)
+|---|---|---|
+|B100|29.56|28.24|
+|Set5|33.66|31.77|
+|Set14|30.24|28.51|
+|Urban100|26.88|25.43|
+
+
+Given same bicubic up-sampling, PSNR of RGB is lower than PSNR of Y channel only.
 # Training
 Original paper used SGD + momentum=0.9, initial learning rate=0.1 with gradient clipping. I personally found that using Adam without gradient clipping works well. Initial learning rate was set to 0.001 with learning rate decay. Training takes less than a hour with RTX 2070 SUPER. Data augmentation applyed(random flip and rotation).
 
 ![learning_curve](https://user-images.githubusercontent.com/71681194/103331500-984c5580-4aa9-11eb-858a-c1e547b5ef67.JPG)
 
-# Results
+
 
 
 
