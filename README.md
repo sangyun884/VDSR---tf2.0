@@ -1,19 +1,15 @@
 # VDSR---tf2.0
 
-Author's site : https://cv.snu.ac.kr/research/VDSR/
 
-Paper review : https://yun905.tistory.com/34
+Tensorflow 2.0 implementation of Accurate Image Super-Resolution Using Very Deep Convolutional Networks (CVPR 2016) with jupyter notebook.
 
-Tensorflow 2.0 implementation of VDSR with jupyter notebook. Dataset is from author's site above.
 
-# Requirements
-Numpy, tensorflow(>=2.0), PIL, pyplot
 
 # PSNR
 
 ![image](https://user-images.githubusercontent.com/71681194/103330773-3a6a3e80-4aa6-11eb-86e7-73e559810739.png)
 
-PSNR of given dataset. The reason values are lower than original paper's is because values above are PSNRs of entire RGB channels, but only Y channel in original paper.  It is known that using whole rgb channels generates better results than using Y channel of YCbCr only. 
+While authors evaluate PSNR with luminance channel only, we used entire rgb channels.
 
 
 ## PSNR of bicubic up-sampling
@@ -28,7 +24,7 @@ PSNR of given dataset. The reason values are lower than original paper's is beca
 
 Given same bicubic up-sampling, PSNR of RGB is lower than PSNR of Y channel only.
 # Training
-Original paper used SGD + momentum=0.9, initial learning rate=0.1 with gradient clipping. I personally found that using Adam without gradient clipping works well. Initial learning rate was set to 0.001 with learning rate decay. Training takes less than a hour with RTX 2070 SUPER. Data augmentation applyed(random flip and rotation).
+Original paper used SGD + momentum=0.9, initial learning rate=0.1 with gradient clipping. I personally found that using Adam without gradient clipping works well. Initial learning rate was set to 0.001. Data augmentation applyed(random flip and rotation).
 
 ![learning_curve](https://user-images.githubusercontent.com/71681194/103331500-984c5580-4aa9-11eb-858a-c1e547b5ef67.JPG)
 
